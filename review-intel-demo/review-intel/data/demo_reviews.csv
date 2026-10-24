@@ -1,0 +1,501 @@
+review_id,product_name,brand,category,review_text,review_date
+D0347,Kajal A,Brand B,Kajal,Delivery was late and the bottle was damaged,2025-08-01
+D0038,Lipstick C,Brand C,Lipstick,"Absolutely love it, would buy again",2025-08-03
+D0228,Lipstick B,Brand B,Lipstick,Shade is different from the photo and I am disappointed,2025-08-04
+D0297,Lipstick B,Brand B,Lipstick,"Beautiful shade, very happy with it",2025-08-04
+D0286,Face Cream A,Brand D,Skincare,"Fake product, I want my money back",2025-08-06
+D0432,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2025-08-07
+D0077,Lipstick A,Brand A,Lipstick,Shade is different from the photo and I am disappointed,2025-08-08
+D0124,Lipstick A,Brand A,Lipstick,Smooth texture and a great finish,2025-08-08
+D0300,Lipstick B,Brand B,Lipstick,"Beautiful shade, very happy with it",2025-08-08
+D0115,Lipstick C,Brand C,Lipstick,"Terrible quality, it faded quickly",2025-08-09
+D0153,Kajal A,Brand B,Kajal,Smooth texture and a great finish,2025-08-10
+D0224,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2025-08-12
+D0434,Foundation A,Brand C,Foundation,Lovely scent and creamy texture,2025-08-12
+D0235,Lipstick B,Brand B,Lipstick,"It is okay, nothing special",2025-08-13
+D0151,Lipstick A,Brand A,Lipstick,"Absolutely love it, would buy again",2025-08-16
+D0207,Lipstick B,Brand B,Lipstick,Premium packaging and wonderful colour,2025-08-17
+D0392,Lipstick A,Brand A,Lipstick,"Arrived on time, standard packaging",2025-08-18
+D0283,Lipstick B,Brand B,Lipstick,"Beautiful shade, very happy with it",2025-08-20
+D0142,Foundation B,Brand A,Foundation,Perfect match and good value,2025-08-22
+D0253,Foundation B,Brand A,Foundation,"Absolutely love it, would buy again",2025-08-23
+D0161,Face Cream A,Brand D,Skincare,Delivery was late and the bottle was damaged,2025-08-24
+D0246,Lipstick A,Brand A,Lipstick,Delivery was late and the bottle was damaged,2025-08-26
+D0045,Foundation B,Brand A,Foundation,"Beautiful shade, very happy with it",2025-08-27
+D0183,Lipstick A,Brand A,Lipstick,"Terrible quality, it faded quickly",2025-08-27
+D0236,Foundation A,Brand C,Foundation,Too expensive for the quality,2025-08-27
+D0373,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2025-08-27
+D0495,Foundation B,Brand A,Foundation,"Terrible quality, it faded quickly",2025-08-27
+D0351,Lipstick A,Brand A,Lipstick,"Absolutely love it, would buy again",2025-08-28
+D0003,Foundation B,Brand A,Foundation,"It is okay, nothing special",2025-08-30
+D0029,Foundation A,Brand C,Foundation,Perfect match and good value,2025-08-31
+D0088,Foundation B,Brand A,Foundation,Premium packaging and wonderful colour,2025-09-01
+D0251,Face Cream A,Brand D,Skincare,"Lasts all day, great quality",2025-09-01
+D0108,Foundation B,Brand A,Foundation,Smooth texture and a great finish,2025-09-02
+D0273,Lipstick C,Brand C,Lipstick,Delivery was late and the bottle was damaged,2025-09-03
+D0327,Lipstick A,Brand A,Lipstick,"Arrived on time, standard packaging",2025-09-03
+D0322,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2025-09-04
+D0387,Kajal A,Brand B,Kajal,Shade is different from the photo and I am disappointed,2025-09-04
+D0047,Lipstick A,Brand A,Lipstick,"Fake product, I want my money back",2025-09-06
+D0131,Lipstick A,Brand A,Lipstick,Perfect match and good value,2025-09-06
+D0473,Lipstick B,Brand B,Lipstick,"Terrible quality, it faded quickly",2025-09-06
+D0454,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2025-09-08
+D0064,Lipstick C,Brand C,Lipstick,Smooth texture and a great finish,2025-09-11
+D0344,Face Cream A,Brand D,Skincare,"Beautiful shade, very happy with it",2025-09-11
+D0139,Foundation A,Brand C,Foundation,Smooth texture and a great finish,2025-09-12
+D0109,Lipstick A,Brand A,Lipstick,Love the colour and it feels lovely,2025-09-13
+D0168,Lipstick C,Brand C,Lipstick,"It is okay, nothing special",2025-09-13
+D0265,Foundation B,Brand A,Foundation,Lovely scent and creamy texture,2025-09-13
+D0004,Lipstick A,Brand A,Lipstick,"Lasts all day, great quality",2025-09-14
+D0005,Lipstick B,Brand B,Lipstick,Looks lovely but it does not last long,2025-09-16
+D0197,Lipstick B,Brand B,Lipstick,"Lasts all day, great quality",2025-09-16
+D0323,Lipstick C,Brand C,Lipstick,Looks lovely but it does not last long,2025-09-16
+D0490,Face Cream A,Brand D,Skincare,Premium packaging and wonderful colour,2025-09-18
+D0165,Kajal A,Brand B,Kajal,Poor packaging and the cap broke,2025-09-20
+D0046,Foundation B,Brand A,Foundation,"Arrived on time, standard packaging",2025-09-21
+D0394,Foundation A,Brand C,Foundation,Smooth texture and a great finish,2025-09-21
+D0474,Foundation B,Brand A,Foundation,Delivery was late and the bottle was damaged,2025-09-21
+D0427,Kajal A,Brand B,Kajal,"Lasts all day, great quality",2025-09-22
+D0264,Foundation A,Brand C,Foundation,"Average product, does the job",2025-09-23
+D0412,Face Cream A,Brand D,Skincare,Smells strange and the texture is sticky,2025-09-23
+D0352,Lipstick C,Brand C,Lipstick,Delivery was late and the bottle was damaged,2025-09-24
+D0384,Lipstick A,Brand A,Lipstick,"Beautiful shade, very happy with it",2025-09-24
+D0242,Lipstick B,Brand B,Lipstick,Perfect match and good value,2025-09-25
+D0238,Kajal A,Brand B,Kajal,"It is okay, nothing special",2025-09-27
+D0298,Foundation A,Brand C,Foundation,"Fake product, I want my money back",2025-09-28
+D0481,Foundation B,Brand A,Foundation,Smooth texture and a great finish,2025-09-30
+D0177,Lipstick C,Brand C,Lipstick,Looks lovely but it does not last long,2025-10-01
+D0096,Foundation A,Brand C,Foundation,"Absolutely love it, would buy again",2025-10-02
+D0117,Lipstick C,Brand C,Lipstick,Smells strange and the texture is sticky,2025-10-02
+D0214,Face Cream A,Brand D,Skincare,Love the colour and it feels lovely,2025-10-04
+D0306,Lipstick C,Brand C,Lipstick,Looks lovely but it does not last long,2025-10-04
+D0492,Kajal A,Brand B,Kajal,"Absolutely love it, would buy again",2025-10-04
+D0119,Foundation B,Brand A,Foundation,Smooth texture and a great finish,2025-10-06
+D0082,Face Cream A,Brand D,Skincare,"Absolutely love it, would buy again",2025-10-07
+D0172,Lipstick C,Brand C,Lipstick,"Terrible quality, it faded quickly",2025-10-07
+D0267,Lipstick B,Brand B,Lipstick,Smooth texture and a great finish,2025-10-08
+D0355,Lipstick B,Brand B,Lipstick,Smooth texture and a great finish,2025-10-08
+D0386,Lipstick A,Brand A,Lipstick,Love the colour and it feels lovely,2025-10-10
+D0471,Face Cream A,Brand D,Skincare,"Absolutely love it, would buy again",2025-10-11
+D0482,Face Cream A,Brand D,Skincare,Love the colour and it feels lovely,2025-10-11
+D0087,Lipstick B,Brand B,Lipstick,"Lasts all day, great quality",2025-10-12
+D0176,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2025-10-12
+D0385,Lipstick C,Brand C,Lipstick,Looks lovely but it does not last long,2025-10-12
+D0010,Foundation A,Brand C,Foundation,Perfect match and good value,2025-10-13
+D0491,Face Cream A,Brand D,Skincare,Lovely scent and creamy texture,2025-10-13
+D0234,Foundation B,Brand A,Foundation,"It is okay, nothing special",2025-10-14
+D0357,Kajal A,Brand B,Kajal,"Terrible quality, it faded quickly",2025-10-14
+D0112,Foundation A,Brand C,Foundation,Premium packaging and wonderful colour,2025-10-16
+D0184,Kajal A,Brand B,Kajal,Perfect match and good value,2025-10-16
+D0356,Kajal A,Brand B,Kajal,"Lasts all day, great quality",2025-10-16
+D0001,Lipstick C,Brand C,Lipstick,Looks lovely but it does not last long,2025-10-17
+D0074,Lipstick A,Brand A,Lipstick,Premium packaging and wonderful colour,2025-10-17
+D0099,Face Cream A,Brand D,Skincare,"Arrived on time, standard packaging",2025-10-19
+D0424,Kajal A,Brand B,Kajal,"Arrived on time, standard packaging",2025-10-19
+D0073,Kajal A,Brand B,Kajal,"Beautiful shade, very happy with it",2025-10-21
+D0363,Lipstick B,Brand B,Lipstick,"Lasts all day, great quality",2025-10-21
+D0120,Lipstick A,Brand A,Lipstick,"Beautiful shade, very happy with it",2025-10-22
+D0194,Kajal A,Brand B,Kajal,Premium packaging and wonderful colour,2025-10-22
+D0336,Foundation A,Brand C,Foundation,"Terrible quality, it faded quickly",2025-10-22
+D0132,Foundation A,Brand C,Foundation,Lovely scent and creamy texture,2025-10-23
+D0361,Lipstick B,Brand B,Lipstick,"It is okay, nothing special",2025-10-24
+D0410,Foundation A,Brand C,Foundation,"Lasts all day, great quality",2025-10-24
+D0303,Foundation B,Brand A,Foundation,Perfect match and good value,2025-10-27
+D0383,Foundation B,Brand A,Foundation,Love the colour and it feels lovely,2025-10-27
+D0321,Face Cream A,Brand D,Skincare,"Fake product, I want my money back",2025-10-31
+D0110,Face Cream A,Brand D,Skincare,"Beautiful shade, very happy with it",2025-11-01
+D0438,Kajal A,Brand B,Kajal,Premium packaging and wonderful colour,2025-11-01
+D0488,Lipstick A,Brand A,Lipstick,Love the colour and it feels lovely,2025-11-01
+D0086,Face Cream A,Brand D,Skincare,Too expensive for the quality,2025-11-02
+D0135,Foundation A,Brand C,Foundation,Premium packaging and wonderful colour,2025-11-03
+D0451,Kajal A,Brand B,Kajal,"Lasts all day, great quality",2025-11-03
+D0090,Lipstick B,Brand B,Lipstick,"Lasts all day, great quality",2025-11-06
+D0239,Lipstick C,Brand C,Lipstick,Premium packaging and wonderful colour,2025-11-06
+D0499,Lipstick C,Brand C,Lipstick,Perfect match and good value,2025-11-07
+D0079,Face Cream A,Brand D,Skincare,Delivery was late and the bottle was damaged,2025-11-08
+D0065,Foundation A,Brand C,Foundation,Premium packaging and wonderful colour,2025-11-09
+D0179,Lipstick A,Brand A,Lipstick,"Terrible quality, it faded quickly",2025-11-09
+D0296,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2025-11-09
+D0310,Foundation B,Brand A,Foundation,Too expensive for the quality,2025-11-09
+D0430,Lipstick C,Brand C,Lipstick,"Lasts all day, great quality",2025-11-09
+D0129,Lipstick C,Brand C,Lipstick,Too expensive for the quality,2025-11-10
+D0261,Foundation B,Brand A,Foundation,"Beautiful shade, very happy with it",2025-11-10
+D0095,Foundation B,Brand A,Foundation,Too expensive for the quality,2025-11-12
+D0284,Lipstick A,Brand A,Lipstick,"It is okay, nothing special",2025-11-13
+D0288,Lipstick A,Brand A,Lipstick,Premium packaging and wonderful colour,2025-11-13
+D0448,Foundation B,Brand A,Foundation,Looks lovely but it does not last long,2025-11-13
+D0014,Foundation B,Brand A,Foundation,"Fake product, I want my money back",2025-11-14
+D0431,Lipstick C,Brand C,Lipstick,"Average product, does the job",2025-11-14
+D0382,Face Cream A,Brand D,Skincare,"Lasts all day, great quality",2025-11-17
+D0458,Foundation A,Brand C,Foundation,"Lasts all day, great quality",2025-11-17
+D0409,Face Cream A,Brand D,Skincare,"It is okay, nothing special",2025-11-18
+D0311,Foundation B,Brand A,Foundation,"Beautiful shade, very happy with it",2025-11-20
+D0101,Foundation A,Brand C,Foundation,Shade is different from the photo and I am disappointed,2025-11-21
+D0195,Foundation B,Brand A,Foundation,Smells strange and the texture is sticky,2025-11-21
+D0457,Foundation B,Brand A,Foundation,"Average product, does the job",2025-11-21
+D0433,Kajal A,Brand B,Kajal,Perfect match and good value,2025-11-22
+D0058,Kajal A,Brand B,Kajal,Smooth texture and a great finish,2025-11-23
+D0456,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2025-11-23
+D0370,Lipstick B,Brand B,Lipstick,"Average product, does the job",2025-11-24
+D0226,Lipstick C,Brand C,Lipstick,Smells strange and the texture is sticky,2025-11-25
+D0437,Face Cream A,Brand D,Skincare,Delivery was late and the bottle was damaged,2025-11-26
+D0035,Foundation A,Brand C,Foundation,"Beautiful shade, very happy with it",2025-11-27
+D0036,Lipstick B,Brand B,Lipstick,Looks lovely but it does not last long,2025-11-27
+D0421,Foundation B,Brand A,Foundation,Premium packaging and wonderful colour,2025-11-27
+D0278,Lipstick C,Brand C,Lipstick,Smooth texture and a great finish,2025-11-28
+D0059,Face Cream A,Brand D,Skincare,Delivery was late and the bottle was damaged,2025-12-01
+D0198,Lipstick C,Brand C,Lipstick,Delivery was late and the bottle was damaged,2025-12-01
+D0134,Foundation B,Brand A,Foundation,Looks lovely but it does not last long,2025-12-03
+D0440,Foundation A,Brand C,Foundation,Too expensive for the quality,2025-12-03
+D0094,Foundation B,Brand A,Foundation,"Terrible quality, it faded quickly",2025-12-05
+D0271,Foundation A,Brand C,Foundation,Smooth texture and a great finish,2025-12-05
+D0391,Lipstick A,Brand A,Lipstick,"Lasts all day, great quality",2025-12-05
+D0080,Lipstick A,Brand A,Lipstick,Smooth texture and a great finish,2025-12-07
+D0216,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2025-12-07
+D0257,Face Cream A,Brand D,Skincare,"Average product, does the job",2025-12-07
+D0445,Lipstick A,Brand A,Lipstick,"Beautiful shade, very happy with it",2025-12-07
+D0191,Lipstick C,Brand C,Lipstick,"Terrible quality, it faded quickly",2025-12-09
+D0270,Lipstick C,Brand C,Lipstick,Delivery was late and the bottle was damaged,2025-12-09
+D0225,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2025-12-10
+D0056,Kajal A,Brand B,Kajal,"Beautiful shade, very happy with it",2025-12-12
+D0219,Foundation A,Brand C,Foundation,Love the colour and it feels lovely,2025-12-12
+D0281,Foundation B,Brand A,Foundation,Looks lovely but it does not last long,2025-12-12
+D0136,Lipstick A,Brand A,Lipstick,"Absolutely love it, would buy again",2025-12-13
+D0415,Lipstick C,Brand C,Lipstick,Too expensive for the quality,2025-12-13
+D0154,Foundation A,Brand C,Foundation,"Lasts all day, great quality",2025-12-14
+D0231,Lipstick B,Brand B,Lipstick,"Terrible quality, it faded quickly",2025-12-14
+D0204,Lipstick A,Brand A,Lipstick,"Fake product, I want my money back",2025-12-17
+D0497,Foundation B,Brand A,Foundation,Smells strange and the texture is sticky,2025-12-18
+D0182,Face Cream A,Brand D,Skincare,"Terrible quality, it faded quickly",2025-12-19
+D0453,Lipstick C,Brand C,Lipstick,Looks lovely but it does not last long,2025-12-19
+D0093,Kajal A,Brand B,Kajal,Premium packaging and wonderful colour,2025-12-20
+D0272,Lipstick B,Brand B,Lipstick,Delivery was late and the bottle was damaged,2025-12-23
+D0146,Lipstick B,Brand B,Lipstick,Too expensive for the quality,2025-12-24
+D0189,Kajal A,Brand B,Kajal,"Beautiful shade, very happy with it",2025-12-25
+D0329,Foundation A,Brand C,Foundation,"It is okay, nothing special",2025-12-26
+D0348,Lipstick B,Brand B,Lipstick,"Fake product, I want my money back",2025-12-27
+D0269,Face Cream A,Brand D,Skincare,Perfect match and good value,2025-12-29
+D0462,Foundation A,Brand C,Foundation,Too expensive for the quality,2025-12-29
+D0486,Kajal A,Brand B,Kajal,Smells strange and the texture is sticky,2025-12-30
+D0254,Lipstick C,Brand C,Lipstick,"Lasts all day, great quality",2025-12-31
+D0016,Lipstick C,Brand C,Lipstick,"Beautiful shade, very happy with it",2026-01-01
+D0367,Lipstick A,Brand A,Lipstick,Premium packaging and wonderful colour,2026-01-01
+D0423,Lipstick C,Brand C,Lipstick,Too expensive for the quality,2026-01-02
+D0429,Face Cream A,Brand D,Skincare,"Fake product, I want my money back",2026-01-02
+D0128,Foundation B,Brand A,Foundation,Delivery was late and the bottle was damaged,2026-01-05
+D0293,Kajal A,Brand B,Kajal,Love the colour and it feels lovely,2026-01-05
+D0121,Lipstick B,Brand B,Lipstick,Delivery was late and the bottle was damaged,2026-01-07
+D0240,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2026-01-07
+D0015,Face Cream A,Brand D,Skincare,Premium packaging and wonderful colour,2026-01-08
+D0439,Foundation A,Brand C,Foundation,"Lasts all day, great quality",2026-01-08
+D0221,Lipstick C,Brand C,Lipstick,Delivery was late and the bottle was damaged,2026-01-09
+D0307,Foundation A,Brand C,Foundation,Lovely scent and creamy texture,2026-01-09
+D0260,Lipstick C,Brand C,Lipstick,Shade is different from the photo and I am disappointed,2026-01-11
+D0395,Lipstick C,Brand C,Lipstick,Perfect match and good value,2026-01-11
+D0485,Lipstick B,Brand B,Lipstick,Premium packaging and wonderful colour,2026-01-12
+D0137,Foundation B,Brand A,Foundation,Perfect match and good value,2026-01-13
+D0332,Lipstick B,Brand B,Lipstick,"Terrible quality, it faded quickly",2026-01-13
+D0092,Foundation A,Brand C,Foundation,Delivery was late and the bottle was damaged,2026-01-14
+D0145,Face Cream A,Brand D,Skincare,Poor packaging and the cap broke,2026-01-14
+D0113,Kajal A,Brand B,Kajal,Love the colour and it feels lovely,2026-01-15
+D0337,Kajal A,Brand B,Kajal,Too expensive for the quality,2026-01-15
+D0378,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2026-01-15
+D0426,Lipstick B,Brand B,Lipstick,"Average product, does the job",2026-01-15
+D0443,Kajal A,Brand B,Kajal,"Fake product, I want my money back",2026-01-15
+D0107,Foundation A,Brand C,Foundation,Perfect match and good value,2026-01-17
+D0201,Lipstick C,Brand C,Lipstick,Poor packaging and the cap broke,2026-01-21
+D0252,Foundation B,Brand A,Foundation,"Absolutely love it, would buy again",2026-01-21
+D0067,Kajal A,Brand B,Kajal,Shade is different from the photo and I am disappointed,2026-01-24
+D0123,Lipstick C,Brand C,Lipstick,"Terrible quality, it faded quickly",2026-01-25
+D0130,Foundation A,Brand C,Foundation,"It is okay, nothing special",2026-01-25
+D0407,Foundation B,Brand A,Foundation,"Arrived on time, standard packaging",2026-01-25
+D0405,Lipstick A,Brand A,Lipstick,Premium packaging and wonderful colour,2026-01-26
+D0447,Foundation B,Brand A,Foundation,Premium packaging and wonderful colour,2026-01-26
+D0076,Kajal A,Brand B,Kajal,"Beautiful shade, very happy with it",2026-01-27
+D0243,Lipstick A,Brand A,Lipstick,"Lasts all day, great quality",2026-01-27
+D0331,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-01-27
+D0396,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-01-27
+D0138,Lipstick B,Brand B,Lipstick,"Absolutely love it, would buy again",2026-01-30
+D0312,Foundation A,Brand C,Foundation,Smooth texture and a great finish,2026-01-31
+D0339,Kajal A,Brand B,Kajal,"Average product, does the job",2026-02-01
+D0469,Kajal A,Brand B,Kajal,Perfect match and good value,2026-02-02
+D0049,Foundation B,Brand A,Foundation,Shade is different from the photo and I am disappointed,2026-02-03
+D0248,Lipstick C,Brand C,Lipstick,Poor packaging and the cap broke,2026-02-03
+D0299,Foundation B,Brand A,Foundation,Too expensive for the quality,2026-02-03
+D0100,Kajal A,Brand B,Kajal,"Beautiful shade, very happy with it",2026-02-04
+D0354,Lipstick B,Brand B,Lipstick,Poor packaging and the cap broke,2026-02-04
+D0180,Lipstick C,Brand C,Lipstick,Lovely scent and creamy texture,2026-02-07
+D0287,Kajal A,Brand B,Kajal,Perfect match and good value,2026-02-07
+D0335,Lipstick C,Brand C,Lipstick,"Beautiful shade, very happy with it",2026-02-07
+D0241,Face Cream A,Brand D,Skincare,"Average product, does the job",2026-02-08
+D0152,Lipstick A,Brand A,Lipstick,Looks lovely but it does not last long,2026-02-09
+D0250,Lipstick A,Brand A,Lipstick,"Lasts all day, great quality",2026-02-09
+D0160,Face Cream A,Brand D,Skincare,Perfect match and good value,2026-02-12
+D0305,Lipstick A,Brand A,Lipstick,Smooth texture and a great finish,2026-02-13
+D0428,Lipstick B,Brand B,Lipstick,"Beautiful shade, very happy with it",2026-02-13
+D0470,Face Cream A,Brand D,Skincare,"Absolutely love it, would buy again",2026-02-14
+D0170,Lipstick C,Brand C,Lipstick,Smooth texture and a great finish,2026-02-15
+D0315,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-02-16
+D0317,Foundation A,Brand C,Foundation,Poor packaging and the cap broke,2026-02-16
+D0174,Foundation A,Brand C,Foundation,Love the colour and it feels lovely,2026-02-18
+D0290,Face Cream A,Brand D,Skincare,Too expensive for the quality,2026-02-19
+D0042,Foundation A,Brand C,Foundation,Premium packaging and wonderful colour,2026-02-21
+D0043,Kajal A,Brand B,Kajal,"Lasts all day, great quality",2026-02-22
+D0413,Lipstick A,Brand A,Lipstick,Shade is different from the photo and I am disappointed,2026-02-22
+D0476,Lipstick B,Brand B,Lipstick,Too expensive for the quality,2026-02-23
+D0262,Lipstick B,Brand B,Lipstick,Love the colour and it feels lovely,2026-02-25
+D0442,Foundation B,Brand A,Foundation,Too expensive for the quality,2026-02-26
+D0223,Lipstick A,Brand A,Lipstick,"Terrible quality, it faded quickly",2026-02-27
+D0365,Lipstick B,Brand B,Lipstick,Lovely scent and creamy texture,2026-02-28
+D0034,Kajal A,Brand B,Kajal,"Arrived on time, standard packaging",2026-03-01
+D0118,Foundation B,Brand A,Foundation,"Average product, does the job",2026-03-02
+D0295,Foundation A,Brand C,Foundation,"Absolutely love it, would buy again",2026-03-02
+D0020,Foundation B,Brand A,Foundation,"Absolutely love it, would buy again",2026-03-03
+D0487,Foundation A,Brand C,Foundation,"Arrived on time, standard packaging",2026-03-03
+D0104,Lipstick C,Brand C,Lipstick,"Absolutely love it, would buy again",2026-03-04
+D0227,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2026-03-04
+D0316,Kajal A,Brand B,Kajal,Smooth texture and a great finish,2026-03-04
+D0111,Face Cream A,Brand D,Skincare,"Terrible quality, it faded quickly",2026-03-05
+D0441,Lipstick C,Brand C,Lipstick,Looks lovely but it does not last long,2026-03-05
+D0186,Face Cream A,Brand D,Skincare,"Fake product, I want my money back",2026-03-08
+D0468,Foundation A,Brand C,Foundation,Shade is different from the photo and I am disappointed,2026-03-08
+D0033,Face Cream A,Brand D,Skincare,"Terrible quality, it faded quickly",2026-03-09
+D0070,Lipstick B,Brand B,Lipstick,Smells strange and the texture is sticky,2026-03-11
+D0494,Lipstick C,Brand C,Lipstick,Perfect match and good value,2026-03-11
+D0400,Lipstick A,Brand A,Lipstick,"Lasts all day, great quality",2026-03-12
+D0403,Lipstick B,Brand B,Lipstick,Smooth texture and a great finish,2026-03-12
+D0318,Foundation B,Brand A,Foundation,Love the colour and it feels lovely,2026-03-13
+D0480,Kajal A,Brand B,Kajal,Shade is different from the photo and I am disappointed,2026-03-13
+D0044,Lipstick B,Brand B,Lipstick,"Absolutely love it, would buy again",2026-03-14
+D0122,Lipstick C,Brand C,Lipstick,Too expensive for the quality,2026-03-17
+D0277,Face Cream A,Brand D,Skincare,"It is okay, nothing special",2026-03-18
+D0196,Face Cream A,Brand D,Skincare,Smooth texture and a great finish,2026-03-19
+D0237,Foundation A,Brand C,Foundation,Smells strange and the texture is sticky,2026-03-19
+D0419,Face Cream A,Brand D,Skincare,Smells strange and the texture is sticky,2026-03-19
+D0091,Foundation B,Brand A,Foundation,Shade is different from the photo and I am disappointed,2026-03-20
+D0333,Face Cream A,Brand D,Skincare,Premium packaging and wonderful colour,2026-03-22
+D0106,Foundation B,Brand A,Foundation,Love the colour and it feels lovely,2026-03-23
+D0169,Lipstick C,Brand C,Lipstick,Premium packaging and wonderful colour,2026-03-23
+D0028,Lipstick A,Brand A,Lipstick,"Lasts all day, great quality",2026-03-25
+D0072,Foundation A,Brand C,Foundation,"Lasts all day, great quality",2026-03-26
+D0275,Kajal A,Brand B,Kajal,"It is okay, nothing special",2026-03-26
+D0420,Lipstick B,Brand B,Lipstick,Perfect match and good value,2026-03-26
+D0167,Foundation A,Brand C,Foundation,Delivery was late and the bottle was damaged,2026-03-27
+D0256,Kajal A,Brand B,Kajal,"Average product, does the job",2026-03-27
+D0369,Kajal A,Brand B,Kajal,Premium packaging and wonderful colour,2026-03-27
+D0483,Foundation A,Brand C,Foundation,Poor packaging and the cap broke,2026-03-28
+D0401,Lipstick C,Brand C,Lipstick,Delivery was late and the bottle was damaged,2026-03-29
+D0463,Face Cream A,Brand D,Skincare,Smooth texture and a great finish,2026-03-29
+D0190,Lipstick B,Brand B,Lipstick,Perfect match and good value,2026-03-30
+D0025,Lipstick C,Brand C,Lipstick,Shade is different from the photo and I am disappointed,2026-03-31
+D0493,Lipstick C,Brand C,Lipstick,Delivery was late and the bottle was damaged,2026-03-31
+D0125,Foundation B,Brand A,Foundation,Premium packaging and wonderful colour,2026-04-01
+D0276,Lipstick A,Brand A,Lipstick,Delivery was late and the bottle was damaged,2026-04-01
+D0164,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-04-04
+D0051,Foundation A,Brand C,Foundation,"Beautiful shade, very happy with it",2026-04-05
+D0289,Foundation B,Brand A,Foundation,"Lasts all day, great quality",2026-04-05
+D0233,Lipstick B,Brand B,Lipstick,Love the colour and it feels lovely,2026-04-06
+D0050,Face Cream A,Brand D,Skincare,"Average product, does the job",2026-04-07
+D0102,Foundation A,Brand C,Foundation,Smooth texture and a great finish,2026-04-07
+D0021,Lipstick B,Brand B,Lipstick,"Lasts all day, great quality",2026-04-08
+D0208,Foundation B,Brand A,Foundation,Lovely scent and creamy texture,2026-04-08
+D0319,Foundation B,Brand A,Foundation,Poor packaging and the cap broke,2026-04-08
+D0350,Lipstick B,Brand B,Lipstick,Love the colour and it feels lovely,2026-04-08
+D0444,Face Cream A,Brand D,Skincare,Shade is different from the photo and I am disappointed,2026-04-08
+D0018,Foundation B,Brand A,Foundation,Poor packaging and the cap broke,2026-04-11
+D0127,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2026-04-11
+D0229,Lipstick B,Brand B,Lipstick,"Average product, does the job",2026-04-11
+D0479,Lipstick B,Brand B,Lipstick,Shade is different from the photo and I am disappointed,2026-04-11
+D0031,Face Cream A,Brand D,Skincare,Premium packaging and wonderful colour,2026-04-12
+D0258,Lipstick B,Brand B,Lipstick,Perfect match and good value,2026-04-12
+D0484,Lipstick B,Brand B,Lipstick,Love the colour and it feels lovely,2026-04-13
+D0084,Face Cream A,Brand D,Skincare,"Beautiful shade, very happy with it",2026-04-14
+D0155,Kajal A,Brand B,Kajal,Shade is different from the photo and I am disappointed,2026-04-15
+D0203,Kajal A,Brand B,Kajal,Smooth texture and a great finish,2026-04-15
+D0140,Lipstick B,Brand B,Lipstick,Shade is different from the photo and I am disappointed,2026-04-16
+D0326,Face Cream A,Brand D,Skincare,Too expensive for the quality,2026-04-16
+D0133,Face Cream A,Brand D,Skincare,"Terrible quality, it faded quickly",2026-04-17
+D0376,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-04-17
+D0085,Foundation B,Brand A,Foundation,Premium packaging and wonderful colour,2026-04-19
+D0185,Foundation A,Brand C,Foundation,"Absolutely love it, would buy again",2026-04-19
+D0280,Lipstick C,Brand C,Lipstick,Poor packaging and the cap broke,2026-04-20
+D0349,Foundation A,Brand C,Foundation,Love the colour and it feels lovely,2026-04-20
+D0040,Kajal A,Brand B,Kajal,"Arrived on time, standard packaging",2026-04-21
+D0346,Face Cream A,Brand D,Skincare,"Absolutely love it, would buy again",2026-04-22
+D0060,Lipstick B,Brand B,Lipstick,Love the colour and it feels lovely,2026-04-23
+D0304,Lipstick B,Brand B,Lipstick,"Lasts all day, great quality",2026-04-24
+D0340,Foundation B,Brand A,Foundation,Shade is different from the photo and I am disappointed,2026-04-24
+D0211,Lipstick B,Brand B,Lipstick,"It is okay, nothing special",2026-04-25
+D0218,Lipstick C,Brand C,Lipstick,"It is okay, nothing special",2026-04-26
+D0156,Kajal A,Brand B,Kajal,Premium packaging and wonderful colour,2026-04-27
+D0222,Foundation A,Brand C,Foundation,Smooth texture and a great finish,2026-04-27
+D0274,Foundation B,Brand A,Foundation,"Lasts all day, great quality",2026-04-27
+D0054,Lipstick B,Brand B,Lipstick,Love the colour and it feels lovely,2026-04-28
+D0055,Face Cream A,Brand D,Skincare,"Lasts all day, great quality",2026-04-28
+D0209,Face Cream A,Brand D,Skincare,Poor packaging and the cap broke,2026-04-28
+D0380,Foundation A,Brand C,Foundation,Looks lovely but it does not last long,2026-04-29
+D0362,Lipstick A,Brand A,Lipstick,"Beautiful shade, very happy with it",2026-04-30
+D0417,Lipstick B,Brand B,Lipstick,Looks lovely but it does not last long,2026-04-30
+D0291,Kajal A,Brand B,Kajal,"Beautiful shade, very happy with it",2026-05-01
+D0341,Lipstick C,Brand C,Lipstick,"Fake product, I want my money back",2026-05-02
+D0220,Lipstick A,Brand A,Lipstick,Premium packaging and wonderful colour,2026-05-03
+D0268,Kajal A,Brand B,Kajal,Shade is different from the photo and I am disappointed,2026-05-03
+D0368,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2026-05-03
+D0247,Lipstick C,Brand C,Lipstick,"It is okay, nothing special",2026-05-05
+D0013,Lipstick A,Brand A,Lipstick,Looks lovely but it does not last long,2026-05-08
+D0478,Kajal A,Brand B,Kajal,"Terrible quality, it faded quickly",2026-05-08
+D0032,Foundation A,Brand C,Foundation,"Beautiful shade, very happy with it",2026-05-09
+D0187,Foundation B,Brand A,Foundation,"Lasts all day, great quality",2026-05-09
+D0213,Lipstick A,Brand A,Lipstick,Looks lovely but it does not last long,2026-05-10
+D0263,Foundation A,Brand C,Foundation,"Beautiful shade, very happy with it",2026-05-10
+D0009,Lipstick A,Brand A,Lipstick,"Terrible quality, it faded quickly",2026-05-13
+D0022,Face Cream A,Brand D,Skincare,Smells strange and the texture is sticky,2026-05-13
+D0460,Kajal A,Brand B,Kajal,Too expensive for the quality,2026-05-15
+D0006,Face Cream A,Brand D,Skincare,Smooth texture and a great finish,2026-05-17
+D0039,Foundation B,Brand A,Foundation,"Beautiful shade, very happy with it",2026-05-17
+D0012,Foundation B,Brand A,Foundation,Smells strange and the texture is sticky,2026-05-20
+D0436,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2026-05-21
+D0202,Lipstick C,Brand C,Lipstick,"It is okay, nothing special",2026-05-22
+D0343,Lipstick C,Brand C,Lipstick,"Absolutely love it, would buy again",2026-05-23
+D0408,Lipstick C,Brand C,Lipstick,"Average product, does the job",2026-05-23
+D0171,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-05-25
+D0418,Lipstick C,Brand C,Lipstick,"Beautiful shade, very happy with it",2026-05-25
+D0353,Foundation A,Brand C,Foundation,"Beautiful shade, very happy with it",2026-05-26
+D0472,Kajal A,Brand B,Kajal,Love the colour and it feels lovely,2026-05-26
+D0008,Foundation B,Brand A,Foundation,Smooth texture and a great finish,2026-05-27
+D0081,Face Cream A,Brand D,Skincare,Lovely scent and creamy texture,2026-05-28
+D0500,Lipstick B,Brand B,Lipstick,"It is okay, nothing special",2026-05-28
+D0181,Face Cream A,Brand D,Skincare,Lovely scent and creamy texture,2026-05-29
+D0388,Face Cream A,Brand D,Skincare,Delivery was late and the bottle was damaged,2026-05-30
+D0334,Lipstick B,Brand B,Lipstick,Smooth texture and a great finish,2026-05-31
+D0162,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-06-04
+D0379,Lipstick C,Brand C,Lipstick,Premium packaging and wonderful colour,2026-06-04
+D0398,Face Cream A,Brand D,Skincare,Perfect match and good value,2026-06-05
+D0425,Lipstick C,Brand C,Lipstick,Too expensive for the quality,2026-06-05
+D0019,Lipstick C,Brand C,Lipstick,"It is okay, nothing special",2026-06-08
+D0116,Lipstick A,Brand A,Lipstick,Shade is different from the photo and I am disappointed,2026-06-08
+D0066,Foundation B,Brand A,Foundation,Poor packaging and the cap broke,2026-06-09
+D0489,Lipstick A,Brand A,Lipstick,"Absolutely love it, would buy again",2026-06-09
+D0364,Lipstick A,Brand A,Lipstick,Smooth texture and a great finish,2026-06-10
+D0366,Face Cream A,Brand D,Skincare,Perfect match and good value,2026-06-10
+D0452,Kajal A,Brand B,Kajal,Love the colour and it feels lovely,2026-06-11
+D0320,Face Cream A,Brand D,Skincare,Poor packaging and the cap broke,2026-06-13
+D0302,Foundation B,Brand A,Foundation,"Arrived on time, standard packaging",2026-06-15
+D0232,Lipstick A,Brand A,Lipstick,"Beautiful shade, very happy with it",2026-06-16
+D0007,Kajal A,Brand B,Kajal,Love the colour and it feels lovely,2026-06-18
+D0143,Lipstick C,Brand C,Lipstick,"Beautiful shade, very happy with it",2026-06-19
+D0416,Foundation A,Brand C,Foundation,Premium packaging and wonderful colour,2026-06-19
+D0249,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2026-06-20
+D0048,Lipstick B,Brand B,Lipstick,"Absolutely love it, would buy again",2026-06-21
+D0324,Lipstick A,Brand A,Lipstick,"Absolutely love it, would buy again",2026-06-22
+D0282,Lipstick A,Brand A,Lipstick,"Absolutely love it, would buy again",2026-06-23
+D0375,Lipstick C,Brand C,Lipstick,"It is okay, nothing special",2026-06-25
+D0371,Lipstick B,Brand B,Lipstick,"Absolutely love it, would buy again",2026-06-26
+D0205,Foundation A,Brand C,Foundation,Perfect match and good value,2026-06-27
+D0359,Lipstick A,Brand A,Lipstick,Smells strange and the texture is sticky,2026-06-27
+D0360,Foundation B,Brand A,Foundation,Poor packaging and the cap broke,2026-06-27
+D0414,Foundation A,Brand C,Foundation,Smooth texture and a great finish,2026-06-27
+D0159,Kajal A,Brand B,Kajal,"Average product, does the job",2026-06-29
+D0075,Face Cream A,Brand D,Skincare,Premium packaging and wonderful colour,2026-07-02
+D0192,Foundation A,Brand C,Foundation,Premium packaging and wonderful colour,2026-07-02
+D0467,Lipstick B,Brand B,Lipstick,Premium packaging and wonderful colour,2026-07-02
+D0498,Lipstick B,Brand B,Lipstick,"Lasts all day, great quality",2026-07-02
+D0126,Lipstick A,Brand A,Lipstick,"Fake product, I want my money back",2026-07-04
+D0068,Face Cream A,Brand D,Skincare,Lovely scent and creamy texture,2026-07-05
+D0083,Foundation A,Brand C,Foundation,Lovely scent and creamy texture,2026-07-06
+D0461,Lipstick C,Brand C,Lipstick,"Fake product, I want my money back",2026-07-08
+D0098,Lipstick B,Brand B,Lipstick,"Lasts all day, great quality",2026-07-09
+D0193,Foundation B,Brand A,Foundation,"Beautiful shade, very happy with it",2026-07-09
+D0097,Lipstick A,Brand A,Lipstick,"Lasts all day, great quality",2026-07-10
+D0465,Foundation A,Brand C,Foundation,Love the colour and it feels lovely,2026-07-14
+D0175,Foundation A,Brand C,Foundation,Perfect match and good value,2026-07-15
+D0150,Face Cream A,Brand D,Skincare,Delivery was late and the bottle was damaged,2026-07-18
+D0114,Face Cream A,Brand D,Skincare,"Lasts all day, great quality",2026-07-19
+D0477,Foundation B,Brand A,Foundation,Shade is different from the photo and I am disappointed,2026-07-19
+D0062,Lipstick B,Brand B,Lipstick,Smells strange and the texture is sticky,2026-07-21
+D0259,Face Cream A,Brand D,Skincare,Delivery was late and the bottle was damaged,2026-07-21
+D0023,Lipstick C,Brand C,Lipstick,Poor packaging and the cap broke,2026-07-22
+D0372,Kajal A,Brand B,Kajal,"Average product, does the job",2026-07-22
+D0292,Foundation A,Brand C,Foundation,Perfect match and good value,2026-07-23
+D0422,Kajal A,Brand B,Kajal,Smooth texture and a great finish,2026-07-23
+D0455,Kajal A,Brand B,Kajal,"Terrible quality, it faded quickly",2026-07-24
+D0148,Kajal A,Brand B,Kajal,Too expensive for the quality,2026-07-25
+D0173,Lipstick A,Brand A,Lipstick,Premium packaging and wonderful colour,2026-07-27
+D0464,Lipstick C,Brand C,Lipstick,"Terrible quality, it faded quickly",2026-07-27
+D0103,Lipstick B,Brand B,Lipstick,Lovely scent and creamy texture,2026-07-28
+D0166,Lipstick C,Brand C,Lipstick,Poor packaging and the cap broke,2026-07-29
+D0266,Foundation A,Brand C,Foundation,"It is okay, nothing special",2026-07-30
+D0069,Face Cream A,Brand D,Skincare,Poor packaging and the cap broke,2026-07-31
+D0308,Lipstick A,Brand A,Lipstick,"Beautiful shade, very happy with it",2026-07-31
+D0027,Lipstick C,Brand C,Lipstick,Smells strange and the texture is sticky,2026-08-02
+D0144,Kajal A,Brand B,Kajal,"Fake product, I want my money back",2026-08-02
+D0215,Kajal A,Brand B,Kajal,"Beautiful shade, very happy with it",2026-08-02
+D0397,Lipstick A,Brand A,Lipstick,Smells strange and the texture is sticky,2026-08-02
+D0325,Face Cream A,Brand D,Skincare,Love the colour and it feels lovely,2026-08-04
+D0105,Lipstick A,Brand A,Lipstick,"Absolutely love it, would buy again",2026-08-05
+D0212,Face Cream A,Brand D,Skincare,Poor packaging and the cap broke,2026-08-05
+D0466,Face Cream A,Brand D,Skincare,Smells strange and the texture is sticky,2026-08-05
+D0381,Foundation A,Brand C,Foundation,Perfect match and good value,2026-08-07
+D0158,Lipstick B,Brand B,Lipstick,Delivery was late and the bottle was damaged,2026-08-09
+D0026,Lipstick A,Brand A,Lipstick,Poor packaging and the cap broke,2026-08-10
+D0188,Lipstick A,Brand A,Lipstick,"Beautiful shade, very happy with it",2026-08-10
+D0285,Foundation B,Brand A,Foundation,Delivery was late and the bottle was damaged,2026-08-10
+D0030,Lipstick B,Brand B,Lipstick,Lovely scent and creamy texture,2026-08-14
+D0041,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2026-08-14
+D0435,Lipstick A,Brand A,Lipstick,Lovely scent and creamy texture,2026-08-15
+D0450,Foundation A,Brand C,Foundation,"It is okay, nothing special",2026-08-15
+D0163,Kajal A,Brand B,Kajal,Too expensive for the quality,2026-08-16
+D0345,Foundation B,Brand A,Foundation,"Average product, does the job",2026-08-16
+D0377,Lipstick B,Brand B,Lipstick,"Beautiful shade, very happy with it",2026-08-16
+D0200,Foundation A,Brand C,Foundation,Lovely scent and creamy texture,2026-08-17
+D0294,Lipstick C,Brand C,Lipstick,Smells strange and the texture is sticky,2026-08-17
+D0399,Foundation B,Brand A,Foundation,Lovely scent and creamy texture,2026-08-17
+D0052,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-08-19
+D0078,Foundation B,Brand A,Foundation,"Average product, does the job",2026-08-19
+D0199,Lipstick A,Brand A,Lipstick,"Fake product, I want my money back",2026-08-19
+D0178,Lipstick C,Brand C,Lipstick,Lovely scent and creamy texture,2026-08-20
+D0149,Foundation B,Brand A,Foundation,Looks lovely but it does not last long,2026-08-21
+D0390,Face Cream A,Brand D,Skincare,"Average product, does the job",2026-08-22
+D0314,Foundation B,Brand A,Foundation,Smells strange and the texture is sticky,2026-08-23
+D0244,Foundation B,Brand A,Foundation,"Absolutely love it, would buy again",2026-08-24
+D0404,Lipstick C,Brand C,Lipstick,Looks lovely but it does not last long,2026-08-26
+D0217,Kajal A,Brand B,Kajal,"Lasts all day, great quality",2026-08-27
+D0057,Lipstick C,Brand C,Lipstick,"Absolutely love it, would buy again",2026-08-31
+D0089,Face Cream A,Brand D,Skincare,Love the colour and it feels lovely,2026-09-02
+D0475,Lipstick B,Brand B,Lipstick,"Beautiful shade, very happy with it",2026-09-02
+D0017,Kajal A,Brand B,Kajal,Perfect match and good value,2026-09-04
+D0210,Lipstick B,Brand B,Lipstick,"Beautiful shade, very happy with it",2026-09-05
+D0446,Kajal A,Brand B,Kajal,"It is okay, nothing special",2026-09-05
+D0338,Face Cream A,Brand D,Skincare,Love the colour and it feels lovely,2026-09-06
+D0309,Kajal A,Brand B,Kajal,"Fake product, I want my money back",2026-09-07
+D0330,Kajal A,Brand B,Kajal,Delivery was late and the bottle was damaged,2026-09-08
+D0374,Kajal A,Brand B,Kajal,"Terrible quality, it faded quickly",2026-09-08
+D0411,Foundation A,Brand C,Foundation,"Arrived on time, standard packaging",2026-09-08
+D0061,Lipstick A,Brand A,Lipstick,Perfect match and good value,2026-09-09
+D0449,Kajal A,Brand B,Kajal,Smells strange and the texture is sticky,2026-09-10
+D0406,Kajal A,Brand B,Kajal,Poor packaging and the cap broke,2026-09-12
+D0024,Foundation B,Brand A,Foundation,Shade is different from the photo and I am disappointed,2026-09-13
+D0342,Kajal A,Brand B,Kajal,Lovely scent and creamy texture,2026-09-13
+D0459,Face Cream A,Brand D,Skincare,Poor packaging and the cap broke,2026-09-13
+D0071,Lipstick A,Brand A,Lipstick,"Arrived on time, standard packaging",2026-09-15
+D0301,Kajal A,Brand B,Kajal,Shade is different from the photo and I am disappointed,2026-09-17
+D0063,Foundation A,Brand C,Foundation,"Average product, does the job",2026-09-18
+D0157,Lipstick C,Brand C,Lipstick,Perfect match and good value,2026-09-19
+D0358,Foundation A,Brand C,Foundation,Love the colour and it feels lovely,2026-09-20
+D0206,Face Cream A,Brand D,Skincare,Looks lovely but it does not last long,2026-09-21
+D0011,Foundation B,Brand A,Foundation,Shade is different from the photo and I am disappointed,2026-09-22
+D0313,Kajal A,Brand B,Kajal,Looks lovely but it does not last long,2026-09-22
+D0328,Kajal A,Brand B,Kajal,"Beautiful shade, very happy with it",2026-09-22
+D0141,Lipstick C,Brand C,Lipstick,Lovely scent and creamy texture,2026-09-23
+D0230,Face Cream A,Brand D,Skincare,Premium packaging and wonderful colour,2026-09-24
+D0389,Face Cream A,Brand D,Skincare,"Lasts all day, great quality",2026-09-24
+D0002,Lipstick A,Brand A,Lipstick,"Absolutely love it, would buy again",2026-09-25
+D0245,Face Cream A,Brand D,Skincare,Lovely scent and creamy texture,2026-09-25
+D0147,Lipstick A,Brand A,Lipstick,"Fake product, I want my money back",2026-09-27
+D0255,Lipstick A,Brand A,Lipstick,Premium packaging and wonderful colour,2026-09-27
+D0393,Lipstick A,Brand A,Lipstick,"Terrible quality, it faded quickly",2026-09-27
+D0279,Foundation B,Brand A,Foundation,Shade is different from the photo and I am disappointed,2026-09-28
+D0402,Kajal A,Brand B,Kajal,Perfect match and good value,2026-09-28
+D0496,Lipstick C,Brand C,Lipstick,Smells strange and the texture is sticky,2026-09-28
+D0053,Foundation A,Brand C,Foundation,Looks lovely but it does not last long,2026-09-29
+D0037,Foundation A,Brand C,Foundation,Perfect match and good value,2026-09-30

@@ -1,0 +1,30 @@
+:root { --bg: #f5f7fa; --card: #fff; --text: #1f2933; --muted: #6b7785; --accent: #3566d6; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
+.shell { display: grid; grid-template-columns: 210px 1fr; min-height: 100vh; }
+.shell nav { background: #1b2433; padding: 16px 8px; display: flex; flex-direction: column; gap: 4px; }
+.shell nav a { color: #cbd5e1; padding: 10px 14px; border-radius: 6px; text-decoration: none; }
+.shell nav a.active { background: #2c3b55; color: #fff; }
+main { padding: 20px; min-width: 0; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; margin-bottom: 16px; }
+.card, .panel { background: var(--card); border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.card b { display: block; font-size: 26px; }
+.card small, .note { color: var(--muted); font-size: 13px; }
+.filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+.filters label { font-size: 12px; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #e5e9f0; }
+button { background: var(--accent); color: #fff; border: 0; padding: 8px 14px; border-radius: 6px; cursor: pointer; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+input, select, textarea { padding: 7px; border: 1px solid #cfd6df; border-radius: 6px; font: inherit; }
+.login { max-width: 340px; margin: 12vh auto; display: flex; flex-direction: column; gap: 10px; }
+.chat-log { min-height: 300px; display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+.bubble { padding: 10px 12px; border-radius: 10px; max-width: 80%; white-space: pre-wrap; }
+.bubble.user { background: #dbe6ff; align-self: flex-end; }
+.bubble.assistant { background: #eef1f5; }
+@media (max-width: 800px) {
+  .shell { grid-template-columns: 1fr; }
+  .shell nav { flex-direction: row; flex-wrap: wrap; }
+}

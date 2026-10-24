@@ -1,0 +1,9 @@
+review_id,product_name,brand,category,review_text,review_date
+S001,Lipstick A,Brand A,Lipstick,The colour is beautiful and the packaging feels premium,2026-01-05
+S002,Lipstick A,Brand A,Lipstick,Looks lovely but it does not last long,2026-01-18
+S003,Lipstick A,Brand A,Lipstick,Shade is different from the photo and I am disappointed,2026-02-02
+S004,Lipstick B,Brand B,Lipstick,Smooth texture and I love the finish,2026-02-11
+S005,Lipstick B,Brand B,Lipstick,Too expensive for the quality,2026-03-03
+S006,Foundation A,Brand C,Foundation,Perfect match for my skin and it feels light,2026-03-09
+S007,Foundation A,Brand C,Foundation,Delivery was late and the bottle was damaged,2026-03-20
+S008,Foundation A,Brand C,Foundation,Good coverage and great value,2026-04-14

@@ -1,0 +1,589 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShopMood | Product Reviews</title>
+
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eaeded;
+    color: #0f1111;
+  }
+
+  header {
+    background: #131921;
+    color: white;
+    padding: 16px 6%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  header span { color: #ff9900; }
+
+  .subtitle {
+    background: #232f3e;
+    color: white;
+    padding: 10px 6%;
+    font-size: 14px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 18px;
+    padding: 24px;
+    max-width: 1150px;
+    margin: auto;
+  }
+
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: transform .15s, box-shadow .15s;
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 14px #0002;
+  }
+
+  .icon { font-size: 65px; margin: 8px; }
+
+  .price {
+    color: #b12704;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 12px 0;
+  }
+
+  button {
+    background: #ffd814;
+    border: 1px solid #fcd200;
+    padding: 10px 18px;
+    border-radius: 22px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  button:hover { background: #f7ca00; }
+  button:disabled { opacity: .6; cursor: wait; }
+
+  #modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: #0009;
+    overflow-y: auto;
+    z-index: 10;
+    padding: 20px;
+  }
+
+  .product-page {
+    background: white;
+    max-width: 760px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .page-header {
+    padding: 18px 24px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+  }
+
+  .close {
+    float: right;
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    padding: 0 5px;
+  }
+
+  .product-info {
+    padding: 24px;
+    display: flex;
+    gap: 22px;
+    align-items: center;
+  }
+
+  .product-icon {
+    font-size: 90px;
+    min-width: 115px;
+    text-align: center;
+    background: #f7f8f8;
+    border-radius: 8px;
+    padding: 16px;
+  }
+
+  .product-info h2 { margin-top: 0; }
+  .muted { color: #565959; font-size: 14px; }
+
+  .section {
+    padding: 22px 24px;
+    border-top: 1px solid #ddd;
+  }
+
+  .section h3 { margin-top: 0; }
+
+  .review {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 16px 0;
+    overflow-wrap: anywhere;
+  }
+
+  .review:last-child { border-bottom: none; }
+  .review-actions { display:flex; justify-content:center; flex-wrap:wrap; gap:10px; margin-top:18px; }
+  .secondary-button { background:#fff; border:1px solid #888; }
+  .secondary-button:hover { background:#f7f8f8; }
+  .review-actions button[hidden] { display:none; }
+
+  .review-name {
+    font-weight: bold;
+    margin-bottom: 7px;
+  }
+
+  .badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 14px;
+    color: white;
+    font-size: 12px;
+    margin: 4px 4px 4px 0;
+  }
+
+  .review-text {
+    white-space: pre-wrap;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 11px;
+    margin: 7px 0 14px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 15px;
+  }
+
+  textarea { resize: vertical; }
+
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .status {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 12px;
+  }
+
+  .error { color: #b12704; }
+  .success { color: #067d62; }
+
+  .stars { color: #de7921; font-size: 18px; }
+
+  .empty {
+    background: #f7f8f8;
+    padding: 18px;
+    border-radius: 6px;
+    color: #565959;
+    line-height: 1.5;
+  }
+
+  @media (max-width: 520px) {
+    header { padding: 14px 18px; }
+    .grid { padding: 14px; gap: 12px; }
+    #modal { padding: 8px; }
+    .product-page { margin: 5px auto; }
+    .product-info { padding: 16px; gap: 12px; }
+    .product-icon { min-width: 75px; font-size: 55px; padding: 10px; }
+    .section { padding: 18px; }
+  }
+</style>
+</head>
+
+<body>
+<header>Shop<span>Mood</span></header>
+<div class="subtitle">Explore products · Read customer experiences · Share your review</div>
+
+<div class="grid" id="grid">
+  <p>Loading products...</p>
+</div>
+
+<div id="modal">
+  <div class="product-page">
+    <div class="page-header">
+      <button class="close" onclick="closeModal()" aria-label="Close">×</button>
+      <strong>Product details</strong>
+    </div>
+
+    <div class="product-info">
+      <div class="product-icon" id="mIcon"></div>
+      <div>
+        <h2 id="mTitle"></h2>
+        <div class="muted" id="mBrand"></div>
+        <div class="price" id="mPrice"></div>
+        <div class="muted">Read customer reviews below.</div>
+      </div>
+    </div>
+
+    <div class="section" id="review-section">
+      <h3>Customer reviews</h3>
+      <p class="muted" id="review-summary">Loading reviews...</p>
+      <div id="reviews"></div>
+      
+<div class="review-actions" id="review-actions" hidden>
+  <button type="button" id="showMoreBtn" onclick="loadMoreReviews()">Show more reviews (+3)</button>
+  <button type="button" class="secondary-button" id="showAllBtn" onclick="loadAllReviews()">Show all reviews</button>
+  <button type="button" class="secondary-button" id="showLessBtn" onclick="showLessReviews()" hidden>Show less</button>
+</div>
+
+      <p class="status muted" id="review-loading" role="status" aria-live="polite"></p>
+    </div>
+
+    <div class="section">
+      <h3>Write a customer review</h3>
+      <p class="muted">Tell others about your experience with this product.</p>
+
+      <form id="reviewForm">
+        <label for="name">Your name (optional)</label>
+        <input id="name" maxlength="80" placeholder="Enter your name">
+
+        <label for="text">Your review</label>
+        <textarea id="text" rows="4" maxlength="5000"
+          placeholder="What did you like or dislike about this product?"
+          required></textarea>
+
+        <button id="submitBtn" type="submit">Submit review</button>
+        <div class="status" id="status" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+const EMO = {
+  joy: ["😄", "#2e9e44"],
+  happiness: ["😄", "#2e9e44"],
+  surprise: ["😲", "#e08a00"],
+  neutral: ["😐", "#6b7280"],
+  sadness: ["😢", "#3b6fd4"],
+  anger: ["😡", "#d32f2f"],
+  disgust: ["🤢", "#7b5e2a"],
+  fear: ["😨", "#7e3fb0"]
+};
+
+let current = null;
+let reviewState = { offset: 0, total: 0, hasMore: false, loading: false, requestId: 0 };
+
+const $ = id => document.getElementById(id);
+
+function escapeHTML(value) {
+  return String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
+async function load() {
+  try {
+    const response = await fetch("/api/products");
+    if (!response.ok) throw new Error("Products could not be loaded.");
+
+    const products = await response.json();
+
+    $("grid").innerHTML = products.map(p => `
+      <div class="card" data-id="${Number(p.id)}" tabindex="0" role="button"
+           aria-label="View ${escapeHTML(p.name)}">
+        <div class="icon">${escapeHTML(p.icon)}</div>
+        <div><strong>${escapeHTML(p.name)}</strong></div>
+        <div class="muted">${escapeHTML(p.brand || "")}</div>
+        <div class="price">₹${Number(p.price).toLocaleString("en-IN")}</div>
+        <button type="button">View product & reviews</button>
+      </div>
+    `).join("");
+
+    document.querySelectorAll(".card").forEach(card => {
+      card.addEventListener("click", () => {
+        const product = products.find(p => p.id === Number(card.dataset.id));
+        if (product) openProduct(product);
+      });
+
+      card.addEventListener("keydown", event => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          card.click();
+        }
+      });
+    });
+  } catch (error) {
+    $("grid").innerHTML =
+      '<p class="empty">Could not load products. Check that ShopMood is running, then refresh.</p>';
+  }
+}
+
+function openProduct(product) {
+  current = product;
+
+  $("mIcon").textContent = product.icon || "🛍️";
+  $("mTitle").textContent = product.name;
+  $("mBrand").textContent =
+    [product.brand, product.category].filter(Boolean).join(" · ");
+  $("mPrice").textContent =
+    "₹" + Number(product.price).toLocaleString("en-IN");
+
+  $("name").value = "";
+  $("text").value = "";
+  $("status").textContent = "";
+  $("status").className = "status";
+  $("modal").style.display = "block";
+  document.body.style.overflow = "hidden";
+
+  reviewState = { offset: 0, total: 0, hasMore: false, loading: false, requestId: 0 };
+  $("review-actions").hidden = true;
+  $("review-loading").textContent = "";
+  loadReviews(true, 3);
+}
+
+function closeModal() {
+  $("modal").style.display = "none";
+  document.body.style.overflow = "";
+  current = null;
+}
+
+$("modal").addEventListener("click", event => {
+  if (event.target === $("modal")) closeModal();
+});
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape") closeModal();
+});
+
+async function loadReviews(reset = false, limit = 5) {
+  if (!current || reviewState.loading) return;
+
+  const productId = current.id;
+  const requestId = ++reviewState.requestId;
+  const offset = reset ? 0 : reviewState.offset;
+  reviewState.loading = true;
+  $("showMoreBtn").disabled = true;
+  $("showAllBtn").disabled = true;
+  $("review-loading").textContent = reset ? "Loading reviews..." : "Loading more reviews...";
+  if (reset) {
+    $("reviews").innerHTML = "";
+    $("review-summary").textContent = "Loading reviews...";
+  }
+
+  try {
+    const response = await fetch(`/api/reviews/${productId}?limit=${limit}&offset=${offset}`);
+    const data = await response.json();
+    if (!response.ok) throw new Error(data.error || "Reviews are temporarily unavailable.");
+    if (current?.id !== productId || requestId !== reviewState.requestId) return;
+
+    // Supports the paginated API response and the older array response during migration.
+    const reviews = Array.isArray(data) ? data : data.reviews;
+    if (!Array.isArray(reviews)) throw new Error("Unexpected response from the review service.");
+    const total = Array.isArray(data) ? reviews.length : Number(data.total ?? reviews.length);
+    const hasMore = Array.isArray(data) ? false : Boolean(data.has_more);
+
+    if (reset) $("reviews").innerHTML = "";
+    if (reviews.length) {
+      $("reviews").insertAdjacentHTML("beforeend", reviews.map(renderReview).join(""));
+    } else if (offset === 0) {
+      $("reviews").innerHTML = '<div class="empty">No reviews yet. Be the first to share your experience!</div>';
+    }
+
+    reviewState.offset = offset + reviews.length;
+    reviewState.total = total;
+    reviewState.hasMore = hasMore;
+    $("review-summary").textContent = `Showing ${reviewState.offset} of ${total} ${total === 1 ? "customer review" : "customer reviews"}`;
+    $("review-actions").hidden = !(reviewState.hasMore && reviewState.offset > 0);
+    $("showMoreBtn").hidden = !reviewState.hasMore;
+    $("showAllBtn").hidden = !reviewState.hasMore;
+    $("showLessBtn").hidden = reviewState.offset <= 3;
+    $("review-loading").textContent = "";
+  } catch (error) {
+    if (current?.id !== productId || requestId !== reviewState.requestId) return;
+    $("review-loading").textContent = "";
+    if (reset) {
+      $("review-summary").textContent = "Reviews could not be loaded.";
+      $("reviews").innerHTML = `<div class="empty">${escapeHTML(error.message)}</div>`;
+    } else {
+      $("review-loading").textContent = `Could not load more reviews: ${error.message}`;
+    }
+  } finally {
+    if (requestId === reviewState.requestId) {
+      reviewState.loading = false;
+      $("showMoreBtn").disabled = false;
+      $("showAllBtn").disabled = false;
+    }
+  }
+}
+
+
+function loadMoreReviews() {
+  if (reviewState.loading || !reviewState.hasMore) return;
+
+  const reviews = $("reviews").querySelectorAll(".review");
+  const hiddenReviews = [...reviews].filter(
+    review => review.style.display === "none"
+  );
+
+  // Reveal reviews that have already been fetched before requesting more.
+  if (hiddenReviews.length > 0) {
+    hiddenReviews.slice(0, 3).forEach(
+      review => review.style.display = ""
+    );
+
+    const visibleCount = [...reviews].filter(
+      review => review.style.display !== "none"
+    ).length;
+
+    $("review-summary").textContent =
+      `Showing ${visibleCount} of ${reviewState.total} customer reviews`;
+
+    $("showLessBtn").hidden = visibleCount <= 3;
+    $("showMoreBtn").hidden =
+      visibleCount >= reviewState.total && !reviewState.hasMore;
+    $("showAllBtn").hidden = !reviewState.hasMore;
+    return;
+  }
+
+  loadReviews(false, 3);
+}
+
+
+
+function showLessReviews() {
+  if (reviewState.loading) return;
+
+  const reviews = $("reviews").querySelectorAll(".review");
+
+  // Display only the first 3 reviews.
+  reviews.forEach((review, index) => {
+    review.style.display = index < 3 ? "" : "none";
+  });
+
+  // Keep the actual number loaded unchanged.
+  $("review-summary").textContent =
+    `Showing ${Math.min(3, reviewState.total)} of ${reviewState.total} customer reviews`;
+
+  $("review-actions").hidden = reviewState.total <= 3;
+  $("showLessBtn").hidden = true;
+  $("showMoreBtn").hidden = !reviewState.hasMore;
+  $("showAllBtn").hidden = !reviewState.hasMore;
+
+  $("review-loading").textContent = "";
+}
+
+
+function loadAllReviews() {
+  if (reviewState.hasMore) {
+    loadReviews(false, Math.max(reviewState.total - reviewState.offset, 1));
+  }
+}
+
+function renderReview(review) {
+  const emotion = String(review.emotion || "").toLowerCase();
+  const [emoji, color] = EMO[emotion] || ["💬", "#666"];
+  const confidence = Number(review.confidence);
+  const hasConfidence = review.confidence != null && Number.isFinite(confidence);
+  const sentiment = review.sentiment
+    ? `<span class="badge" style="background:#37475a">Sentiment: ${escapeHTML(review.sentiment)}</span>`
+    : "";
+  const emotionBadge = review.emotion
+    ? `<span class="badge" style="background:${color}">${emoji} ${escapeHTML(review.emotion)}${hasConfidence ? " · " + Math.round(confidence * 100) + "%" : ""}</span>`
+    : "";
+
+  const date = review.review_date
+    ? `<div class="muted">${escapeHTML(review.review_date)}</div>`
+    : "";
+
+  const scores = review.scores && typeof review.scores === "object"
+    ? Object.entries(review.scores).map(([label, value]) => {
+        const n = Math.max(0, Math.min(1, Number(value) || 0));
+        return `<div class="muted">${escapeHTML(label)} · ${Math.round(n * 100)}%</div>`;
+      }).join("")
+    : "";
+
+  return `
+    <article class="review">
+      <div class="review-name">👤 ${escapeHTML(review.name || "Customer")}</div>
+      ${date}
+      ${sentiment}
+      ${emotionBadge}
+      <div class="review-text">${escapeHTML(review.text || review.review_text || "")}</div>
+      ${scores}
+    </article>`;
+}
+
+$("reviewForm").addEventListener("submit", async event => {
+  event.preventDefault();
+
+  if (!current) return;
+
+  const productId = current.id;
+  const text = $("text").value.trim();
+  const name = $("name").value.trim();
+  const button = $("submitBtn");
+
+  if (!text) {
+    $("status").textContent = "Please write a review first.";
+    $("status").className = "status error";
+    return;
+  }
+
+  button.disabled = true;
+  $("status").textContent = "Submitting review and analysing it...";
+  $("status").className = "status";
+
+  try {
+    const response = await fetch("/api/reviews/" + productId, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, text })
+    });
+
+    const result = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      throw new Error(result.error || "Could not submit the review.");
+    }
+
+    $("text").value = "";
+    $("status").textContent =
+      "Your review was submitted successfully!";
+    $("status").className = "status success";
+
+    await loadReviews(true, 5);
+
+  } catch (error) {
+    $("status").textContent = error.message;
+    $("status").className = "status error";
+  } finally {
+    button.disabled = false;
+  }
+});
+
+load();
+</script>
+</body>
+</html>

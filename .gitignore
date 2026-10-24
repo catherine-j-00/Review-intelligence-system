@@ -1,0 +1,29 @@
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Secrets and local configuration
+.env
+**/.env
+
+# Databases
+*.db
+instance/
+
+# Frontend dependencies
+node_modules/
+dist/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large model files
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.pkl

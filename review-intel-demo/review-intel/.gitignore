@@ -1,0 +1,32 @@
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Environment variables and secrets
+.env
+**/.env
+
+# Databases
+*.db
+instance/
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Python cache and testing
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Model files
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Pickle models
+*.pkl
